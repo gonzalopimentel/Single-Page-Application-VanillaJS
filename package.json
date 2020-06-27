@@ -1,16 +1,18 @@
 {
-  "name": "cientifico",
+  "name": "a",
   "version": "1.0.0",
-  "description": "single page application",
+  "description": "Building a webpage with RickandMorty API",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development"
   },
   "keywords": [
-    "javascript"
+    "HTML",
+    "CSS",
+    "JavaScript"
   ],
-  "author": "Gonzalo Pimentel <gonzalo.pimentel.ramirez@gmail.com>",
+  "author": "Gonzalo Pimentel",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.10.3",

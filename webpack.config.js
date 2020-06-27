@@ -1,6 +1,4 @@
-/*Nos permite acceder hacia donde estamos dentro de las carpetas o hacia donde nos movemos*/
 const path = require("path");
-/*Archivo para trabajar con HTML */
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 
@@ -16,6 +14,7 @@ module.exports = {
   module: {
     rules: [
       {
+        // \ lo vuelve especial, ? encuentra el js, $ encuentra el final de la entrada s en js.
         test: /\.js?$/,
         exclude: /node_modules/,
         use: {
