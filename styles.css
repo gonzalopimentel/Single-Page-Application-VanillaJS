@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: palegreen;
   color: #3c484e;
   font-family: "Open Sans", sans-serif;
 }
@@ -12,11 +12,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #02a9d3;
+  padding: 0 5px;
 }
 
 .Header a {
   text-decoration: none;
-  color: #15302c;
+  color: white;
+  font-weight: bold;
+}
+.Header a:hover {
+  color: yellow;
 }
 
 .Main {
@@ -42,6 +48,7 @@ body {
 
 .Characters-card {
   text-decoration: none;
+  background-color: rgb(202, 199, 199);
   box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
     1px 3px 8px rgba(39, 44, 49, 0.03);
   border-radius: 5px;
@@ -70,8 +77,9 @@ body {
   margin: 20px;
 }
 
-.Characters-item {
+.Character-item {
   text-decoration: none;
+  background-color: rgb(202, 199, 199);
   box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
     1px 3px 8px rgba(39, 44, 49, 0.03);
   border-radius: 5px;
@@ -81,25 +89,33 @@ body {
   animation-name: fade;
 }
 
-.Characters-item img {
+.Character-item img {
   width: 100%;
   height: auto;
-  border-radius: 5px 5px 0 0;
 }
 
-.Characters-item h2 {
+.Character-item h2 {
   font-size: 18px;
   font-weight: 300;
+  color: black;
   padding: 5px 10px;
   display: flex;
   justify-content: space-between;
 }
-
-.Characters-item a {
-  text-decoration: none;
-  color: #026c86;
+.Character-item h2:hover {
+  color: yellow;
 }
 
+.Character-item a {
+  text-decoration: none;
+}
+
+.Error404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 @keyframes fade {
   from {
     opacity: 0;
