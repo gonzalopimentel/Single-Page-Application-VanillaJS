@@ -3,7 +3,7 @@ const Header = () => {
     <div class="Header-main">
       <div class="Header-logo">
         <h1>
-          <a href="/Single-Page-Application-VanillaJS/#/3/">
+          <a href="/Single-Page-Application-VanillaJS/">
             Home
           </a>
         </h1>
